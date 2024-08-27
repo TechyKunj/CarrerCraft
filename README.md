@@ -1,6 +1,6 @@
-# CareerOptimizer - Resume ATS Tracker
+# CareerCraft - Resume ATS Tracker
 
-CareerOptimizer is a Streamlit-based web application designed to analyze resumes against job descriptions using advanced ATS (Applicant Tracking System) technology. It provides insights into resume compatibility, optimization suggestions, and career guidance in the tech industry.
+CareerCraft is a Streamlit-based web application designed to analyze resumes against job descriptions using advanced ATS (Applicant Tracking System) technology. It provides insights into resume compatibility, optimization suggestions, and career guidance in the tech industry.
 
 ![CareerOptimizer Demo](https://cdn.dribbble.com/userupload/12500996/file/original-b458fe398a6d7f4e9999ce66ec856ff9.gif)
 
