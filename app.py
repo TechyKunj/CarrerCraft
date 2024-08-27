@@ -10,7 +10,7 @@ from PIL import Image
 load_dotenv()
 
 # Set page configuration as the first Streamlit command
-st.set_page_config(page_title="CarrerOptimizer", layout="wide")
+st.set_page_config(page_title="CareerCraft: ATS-Optimized Resume Analyzer using Gemini Model", layout="wide")
 
 # Configure the Google generative AI model using an API key stored in environment variables
 google_api_key = st.text_input("Enter your Google API Key", type="password")  # Input field for API key
@@ -61,11 +61,11 @@ col1, col2 = st.columns([3, 2])
 
 # Content for the first set of columns
 with col1:
-    st.title("CareerOptimizer")
+    st.title("CareerCraft")
     st.header("Enhance Your Tech Career Path!")
     st.markdown("""
     <p style='text-align: justify;'>
-    Introducing CareerOptimizer, your ultimate solution for enhancing job applications and accelerating career growth in the tech industry.
+    Introducing CareerCraft, your ultimate solution for enhancing job applications and accelerating career growth in the tech industry.
     Our innovative platform leverages advanced ATS technology to provide job seekers with valuable insights into their resumes' compatibility with job descriptions.
     From resume optimization and skill enhancement to career progression guidance, CareerOptimizer empowers users to stand out in today’s competitive job market. 
     Streamline your job application process, enhance your skills, and confidently navigate your career path. 
@@ -126,17 +126,17 @@ avs.add_vertical_space(10)
 col1, col2 = st.columns([2, 3])
 with col2:
     st.markdown("<h1 style='text-align: center;'>FAQ</h1>", unsafe_allow_html=True) 
-    st.write("Question: How does CareerOptimizer analyze resumes and job descriptions?") 
-    st.write("""Answer: CareerOptimizer uses advanced algorithms to analyze resumes and job descriptions,
+    st.write("Question: How does CareerCraft analyze resumes and job descriptions?") 
+    st.write("""Answer: CareerCraft uses advanced algorithms to analyze resumes and job descriptions,
            identifying key keywords and assessing compatibility between the two.""") 
     avs.add_vertical_space(3)
-    st.write("Question: Can CareerOptimizer suggest improvements for my resume?")
-    st.write("""Answer: Yes, CareerOptimizer provides personalized recommendations to optimize your resume
+    st.write("Question: Can CareerCraft suggest improvements for my resume?")
+    st.write("""Answer: Yes, CareerCraft provides personalized recommendations to optimize your resume
            for specific job openings, including suggestions for missing keywords and alignment with 
            desired job roles.""")
     avs.add_vertical_space(3)
-    st.write("Question: Is CareerOptimizer suitable for both entry-level and experienced professionals?") 
-    st.write("""Answer: Absolutely! CareerOptimizer caters to job seekers at all career stages, offering 
+    st.write("Question: Is CareerCraft suitable for both entry-level and experienced professionals?") 
+    st.write("""Answer: Absolutely! CareerCraft caters to job seekers at all career stages, offering 
            tailored insights and guidance to enhance their resumes and advance their careers.""")
 
 with col1:
